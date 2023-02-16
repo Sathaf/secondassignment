@@ -193,6 +193,9 @@ div img{
     .header-container {
         display: block;
     }
+    .title{
+        font-size: 20px;
+    }
     .naver{
         display: block;
     }
