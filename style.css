@@ -39,9 +39,9 @@ div nav{
 }
 .header-img img{
     margin-top: 50px;
-    width: 1000px;
-    height: 400px;
-    margin-left: 100px;
+    width: 1440px;
+    height: 700px;
+    margin-left: 300px;
     margin-right: 88px;  
    
 }
@@ -58,7 +58,7 @@ div img{
 }
 .features{
     display: flex;
-    align-items: center;
+    align-items:center;
     margin-top: 82px;
     margin-left: 100px;
     margin-right: 88px;  
@@ -76,20 +76,193 @@ div img{
 /* exper for style */
 .expert-dic{
     display: flex;
+    justify-content: space-around;
     margin-top: 156px;
     margin-left: 20px;
     margin-right: 10px;  
 }
 .expert{
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px -1px rgba(0,0,0,0.1);
 }
 .expert-img img{
     width: 608px;
-    height: 782px;
+    height: 882px;
     padding-left: 100px;
 }
+.expert-btn{
+    background-color: #FF900E;
+    font-size: 64px;
+    width: 342px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    margin-top: -100px;
+    cursor: pointer;
+
+}
+.spcieal-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+/* Award part style */
+.awards-dec{
+    margin-top: 100px;
+    margin-bottom: 97px;
+    margin-left: 50px;
+}   
 
 
+.awards{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.award img{
+    width:  45.22px;
+    height: 45.22px;
+    
+}
+.award h3{
+    color: #727272;
+}
+.award{
+    text-align: center;
+    border: 2px solid #FF900E;  
+    padding-top: 50px;
+    height: 241px;
+    width: 241px;
+  
+
+       
+}
+.award:hover{
+    background-color: chocolate;
+    border-width: 10px;
+    transition: border-width 0.6s linear;
+}
+/* service part */
+.service-title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.service{
+    text-align: center;
+    padding: 2opx;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* sponsor for style */
+.sponspor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.img-sp{
+    color: #727272;
+
+}
+.sponspor img{
+    width: 166.76px;
+    height:  50px;
+    
+}
+/* footer style */
+.footer-container{
+    color: #727272;
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-top: 100px;
+}
+/* meadia quary for responesive */
+@media screen and (max-width: 688px) {
+    .header-container {
+        display: block;
+    }
+    .naver{
+        display: block;
+    }
+    .header-img img{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;  
+    }
+    .feature{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        row-gap: 10px;
+    }
+        
+    .features{
+        display: block;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .expert-dic{
+        display: block;
+        margin-top: 100px;
+        margin-left: 0px;
+        margin-right: 0px;  
+    }
+    .expert-img img{
+       width: 100%;
+        padding: 0px;
+    }
+    .awards{
+        display: block;
+    }
+    .award img{
+        width:  45.22px;
+        height: 45.22px;      
+    }
+    .award{
+        margin-top: 5px;
+        align-items: center;;
+    }
+    .awards-dec{
+       padding-top: 100px;
+    }  
+    .services{
+        display: block;
+       
+    }
+    .service{
+        margin-top: 10px;
+    }
+    .sponspor{
+        display: block;
+        margin-top: 5px;
+        text-align: center;
+    
+    }
+
+    .sponspor img{
+        width: 166.76px;
+        height:  50px;
+        margin-top: 100px;
+        
+    }
+  }
+  /* @media screen and (min-width: 480px) {
+    body {
+      background-color: red;
+    }
+  } */
 
 
 
