@@ -38,10 +38,11 @@ div nav{
     color: wheat;
 }
 .header-img img{
-    margin-top: 50px;
+    margin-top: 50px; 
+    padding-bottom: 30px;
     width: 1440px;
     height: 700px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 88px;  
    
 }
